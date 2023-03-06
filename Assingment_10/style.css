@@ -1,0 +1,316 @@
+body {
+  background-color: rgb(237, 225, 245);
+}
+
+div {
+  background-color: white;
+  margin: 72px 250px;
+  width: 850px;
+  border-radius: 20px;
+}
+
+div::before {
+  position: absolute;
+  box-shadow: 10px 8px 10px 5px orange;
+  inset: -5px;
+  transform: translate(10px, 8px);
+  z-index: -1;
+  background: fixed;
+  filter: blur(10px);
+}
+
+h1 {
+  margin: 0px;
+  padding-left: 53px;
+  padding-top: 51px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.description_1 {
+  margin: 0px;
+  padding-left: 55px;
+  font-size: larger;
+  font-weight: lighter;
+}
+
+hr {
+  border-color: rgb(240, 235, 235);
+  border-style: dotted;
+}
+
+section {
+  display: inline-block;
+}
+
+label {
+  display: block;
+}
+
+.align1 {
+  font-size: 20px;
+  padding-left: 60px;
+}
+
+.align2 {
+  margin-left: 57px;
+  margin-top: 10px;
+  width: 341px;
+  height: 41px;
+  border-radius: 5px;
+  border-color: rgb(174, 174, 177);
+  border-style: solid;
+}
+
+.align3 {
+  padding-left: 60px;
+  color: rgb(107, 107, 110);
+}
+
+.align5 {
+  margin-left: 27px;
+  margin-top: 10px;
+  width: 341px;
+  height: 41px;
+  border-radius: 5px;
+  border-color: rgb(174, 174, 177);
+  border-style: solid;
+}
+
+.align6 {
+  margin-left: 30px;
+  color: rgb(107, 107, 110);
+}
+
+.align7 {
+  margin-left: 60px;
+  font-size: larger;
+}
+
+.align8 {
+  margin-left: 57px;
+  margin-top: 10px;
+  width: 341px;
+  height: 41px;
+  border-radius: 5px;
+  border-color: rgb(174, 174, 177);
+  border-style: solid;
+}
+
+.align10 {
+  margin-left: 27px;
+  margin-top: 10px;
+  width: 98px;
+  height: 41px;
+  border-radius: 5px;
+  border-color: rgb(174, 174, 177);
+  border-style: solid;
+}
+
+.align13 {
+  display: inline-block;
+}
+
+.align9 {
+  margin-left: 30px;
+  font-size: larger;
+}
+
+.align11 {
+  margin-top: 10px;
+  width: 231px;
+  height: 41px;
+  border-radius: 5px;
+  border-color: rgb(174, 174, 177);
+  border-style: solid;
+}
+
+.sec1 {
+  margin-left: 440px;
+  color: rgb(107, 107, 110);
+}
+
+.align12 {
+  display: inline-block;
+  margin-left: 38px;
+}
+
+textarea {
+  border-radius: 5px;
+  margin-left: 57px;
+  border-color: rgb(174, 174, 177);
+}
+
+.align14 {
+  margin-left: 60px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.align16 {
+  margin-left: 60px;
+  color: rgb(107, 107, 110);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.align18 {
+  margin-left: 60px;
+  color: rgb(107, 107, 110);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.align19 {
+  margin-left: 60px;
+  color: rgb(107, 107, 110);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.align20 {
+  margin-left: 25px;
+  color: rgb(107, 107, 110);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.align21 {
+  margin-left: 16px;
+}
+
+.align24 {
+  margin-left: 55px;
+  color: rgb(107, 107, 110);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.align23 {
+  margin-left: 25px;
+  color: rgb(107, 107, 110);
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.align25 {
+  margin-left: 18px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  border-color: rgb(174, 174, 177);
+  width: 350px;
+  height: 50px;
+  margin-top: -40px;
+}
+
+.align27 {
+  width: 236px;
+  height: 42px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.sec3 {
+  margin-left: 50px;
+}
+
+.align26 {
+  margin-bottom: 10px;
+  font-size: larger;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.align28 {
+  margin-left: 7px;
+  margin-top: 10px;
+  color: rgb(107, 107, 110);
+}
+
+.align29 {
+  margin-left: 7px;
+  margin-top: 10px;
+  color: rgb(107, 107, 110);
+}
+
+.align30 {
+  margin-left: 7px;
+  margin-top: 10px;
+  color: rgb(107, 107, 110);
+}
+
+.sec5 {
+  display: block;
+  margin-left: 55px;
+  line-height: 30px;
+}
+
+.para2 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.para3 {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: -3px;
+}
+
+.para4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 47px;
+}
+
+.para5 {
+  font-size: 20px;
+  margin-left: 47px;
+}
+
+.sec6 {
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+#sec7 {
+  border: 1px solid #d8d7d7;
+  margin: 0px 57px;
+  padding: 0px 51px;
+  border-radius: 6px;
+}
+
+.para6 {
+  font-style: italic;
+  font-size: larger;
+  text-align: center;
+}
+
+#span1 {
+  text-align: center;
+  margin-left: 260px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#sec8 {
+  margin-left: 300px;
+}
+
+.align42 {
+  font-size: 22px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: rgb(22, 170, 82);
+  color: white;
+  cursor: pointer;
+}
+
+.align8[placeholder] {
+  font-size: larger;
+}
+
+select {
+  font-size: 15px;
+}

@@ -1,0 +1,28 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(243, 234, 223);
+}
+
+header {
+  background-color: rgb(224, 230, 241);
+  padding: 1px 0px;
+}
+
+ul {
+  width: auto;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: rgb(103, 112, 112);
+  border-radius: 10px;
+  margin-left: -20px;
+  margin-right: 40px;
+}
+
+a {
+  font-size: large;
+  color: white;
+}

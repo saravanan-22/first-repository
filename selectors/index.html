@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="keywords" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .one {
+        height: 30px;
+        background: radial-gradient(
+            circle,
+            rgba(238, 174, 202, 1) 0%,
+            rgba(196, 148, 233, 0.16190789059764532) 70%
+          ),
+          url(./image/jio\ mart.jpg) no-repeat center/cover fixed;
+        height: 100vh;
+        position: relative;
+      }
+
+      .two {
+        height: calc(100vh - 30px);
+        background: green;
+      }
+
+      h1 {
+        justify-content: right;
+        font-size: 50px;
+        position: relative;
+        left: 20%;
+      }
+
+      h2 {
+        position: absolute;
+        left: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one"></div>
+    <h1 style="display: inline-block">title</h1>
+    <h2>heading</h2>
+    <div class="two"></div>
+  </body>
+</html>

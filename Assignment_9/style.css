@@ -1,0 +1,76 @@
+body {
+  position: absolute;
+  margin: 0px;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      slategray 20%,
+      slategray 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        slategray 20%,
+        slategray 80%,
+        transparent 80%,
+        transparent
+      )
+      50px 50px,
+    linear-gradient(#a8b1bb 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #a8b1bb 8px, transparent 8px) -4px 0;
+  background-color: slategray;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+header {
+  background-color: rgb(214, 214, 238);
+}
+
+.navbarone,
+.navbartwo,
+.sectwo,
+.secthree {
+  display: inline-block;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 20px;
+  background-color: rgb(188, 188, 240);
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.fa-brands {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navbartwo > ul {
+  margin-left: 480px;
+}
+
+video {
+  width: 300px;
+  display: block;
+  margin: 20px;
+}
+
+audio {
+  margin-bottom: 50px;
+  margin: 20px;
+}
+
+section > table {
+  position: absolute;
+  bottom: 60%;
+  left: 30%;
+}
